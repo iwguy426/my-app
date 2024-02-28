@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <Head />
       <main className={`${styles.main} ${inter.className}`}>
-        <Headline />
+        <Headline title="TEST-About Page" page="/test/test" />
         <Links /> 
       </main>
     </>
